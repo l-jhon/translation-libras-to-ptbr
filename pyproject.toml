@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "translation-libras-to-ptbr"
+version = "0.1.0"
+description = ""
+authors = ["Jhon Lucas <jhonlucaslife@gmail.com>"]
+readme = "README.md"
+packages = [{include = "translation_libras_to_ptbr"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.7.0"
+pandas = "^1.5.2"
+requests = "^2.28.1"
+webdriver-manager = "^3.8.5"
+googletrans = "^3.0.0"
+deep-translator = "^1.9.1"
+translators = "^5.5.4"
+transformers = "^4.25.1"
+torch = "^1.13.0"
+spacy = {version = "^3.4.4", extras = ["pt_core_news_md"]}
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.17.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
