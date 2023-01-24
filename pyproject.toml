@@ -18,6 +18,10 @@ translators = "^5.5.4"
 transformers = "^4.25.1"
 torch = "^1.13.0"
 spacy = {version = "^3.4.4", extras = ["pt_core_news_md"]}
+scikit-learn = "^1.2.0"
+torchtext = "0.6.0"
+torch-tb-profiler = "^0.4.1"
+torchsummary = "^1.5.1"
 
 
 [tool.poetry.group.dev.dependencies]
